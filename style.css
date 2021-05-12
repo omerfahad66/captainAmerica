@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: url(/wp1808933-captain-america-wallpapers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* overflow-x: hidden; */
+}
+
+ul{
+    list-style: none;
+    background-color:transparent;
+}
+
+li{
+    float: left;
+}
+
+.logo{
+    float: right;
+}
+
+.logo img{
+    width: 100px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px;
+    color: white;
+    font-size: 20px;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+}
+
+#gallery{
+    background: url(/samuel-branch-ZPVisr0s_hQ-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+#story{
+    background: url(/wp1808958-captain-america-wallpapers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#story h1{
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+    color: rgba(255, 0, 0, 0.658);
+}
+
+#story p{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    color: palegreen;
+}
+
+strong{
+    color: red;
+}
